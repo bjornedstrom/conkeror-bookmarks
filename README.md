@@ -2,9 +2,7 @@ conkeror-bookmarks
 ==================
 Copyright (c) Björn Edström <be@bjrn.se> 2011.
 
-The idea here is to make some kind of bookmark manager for conkeror (the web browser).
-
-Currently, the code here just implements a command to conkeror,
+The idea here is to make some kind of bookmark manager for conkeror (the web browser). Currently though, the code here just implements a command to conkeror,
 
 `M-x list-bookmarks`
 
@@ -29,3 +27,8 @@ Put `conkeror-bookmarks.py` somwhere in your path, and put the following in your
             var uri = "data:text/html;charset=utf-8;base64,"+btoa(data);
             browser_object_follow(I.buffer, OPEN_NEW_BUFFER, load_spec({ uri: uri }));
         });
+
+The Future
+----------
+
+See the TODO.
