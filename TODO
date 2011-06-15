@@ -1,0 +1,9 @@
+TODO
+----
+
+Everything here is just a big hack. The proper way to list/manage
+bookmarks is to use the mozilla nsINavBookmarksService and querying
+places (http://mdn.beonex.com/en/Querying_Places). Implementing that
+in conkeror itself would take too long, and doesn't solve the problem
+I have at hand (to find my bookmarks), so querying the sqlite3 db will
+do for now.
